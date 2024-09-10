@@ -1,0 +1,6 @@
+{
+    "parent": "yuushya:extra_building_material/blue_signpost_slab",
+	"textures": {
+		"1": "yuushya:0extra_building_material/preview/green_signpost_hd"
+	}
+}

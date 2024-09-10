@@ -1,0 +1,56 @@
+{
+  "children": [
+    "yuushya:seat_black_concrete",
+    "yuushya:seat_blue_concrete",
+    "yuushya:seat_cyan_concrete",
+    "yuushya:seat_gray_concrete",
+    "yuushya:seat_green_concrete",
+    "yuushya:seat_light_blue_concrete",
+    "yuushya:seat_light_gray_concrete",
+    "yuushya:seat_lime_concrete",
+    "yuushya:seat_magenta_concrete",
+    "yuushya:seat_orange_concrete",
+    "yuushya:seat_pink_concrete",
+    "yuushya:seat_purple_concrete",
+    "yuushya:seat_raw_acacia_wood",
+    "yuushya:seat_raw_bamboo",
+    "yuushya:seat_raw_birch_wood",
+    "yuushya:seat_raw_cherry_wood",
+    "yuushya:seat_raw_crimson_wood",
+    "yuushya:seat_raw_dark_oak_wood",
+    "yuushya:seat_raw_jungle_wood",
+    "yuushya:seat_raw_mangrove_wood",
+    "yuushya:seat_raw_oak_wood",
+    "yuushya:seat_raw_spruce_wood",
+    "yuushya:seat_raw_warped_wood",
+    "yuushya:seat_red_concrete",
+    "yuushya:seat_white_concrete",
+    "yuushya:seat_yellow_concrete"
+  ],
+  "blockstates": [
+    {
+      "variant": "facing=east",
+      "collision": [
+        { "from": [ 2.0, -1.1346160151329325, 0.7749999761581421 ], "to": [ 15.603079796298989, 17.399999618530273, 15.125 ] }
+      ]
+    },
+    {
+      "variant": "facing=north",
+      "collision": [
+        { "from": [ 0.7749999761581421, -1.1346160151329325, 0.3969202037010122 ], "to": [ 15.125, 17.399999618530273, 14.0 ] }
+      ]
+    },
+    {
+      "variant": "facing=south",
+      "collision": [
+        { "from": [ 0.875, -1.1346160151329325, 2.0 ], "to": [ 15.225000023841858, 17.399999618530273, 15.603079796298989 ] }
+      ]
+    },
+    {
+      "variant": "facing=west",
+      "collision": [
+        { "from": [ 0.3969202037010122, -1.1346160151329325, 0.875 ], "to": [ 14.0, 17.399999618530273, 15.225000023841858 ] }
+      ]
+    }
+  ]
+}

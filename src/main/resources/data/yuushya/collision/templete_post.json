@@ -1,0 +1,31 @@
+{
+  "children": [
+    "yuushya:post_raw_gray_wood"
+  ],
+  "blockstates": [
+    {
+      "variant": "facing=east",
+      "collision": [
+        { "from": [ 5.0, 0.0, 5.0 ], "to": [ 11.0, 16.0, 11.0 ] }
+      ]
+    },
+    {
+      "variant": "facing=north",
+      "collision": [
+        { "from": [ 5.0, 0.0, 5.0 ], "to": [ 11.0, 16.0, 11.0 ] }
+      ]
+    },
+    {
+      "variant": "facing=south",
+      "collision": [
+        { "from": [ 5.0, 0.0, 5.0 ], "to": [ 11.0, 16.0, 11.0 ] }
+      ]
+    },
+    {
+      "variant": "facing=west",
+      "collision": [
+        { "from": [ 5.0, 0.0, 5.0 ], "to": [ 11.0, 16.0, 11.0 ] }
+      ]
+    }
+  ]
+}

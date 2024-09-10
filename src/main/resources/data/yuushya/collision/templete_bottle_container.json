@@ -1,0 +1,31 @@
+{
+  "children": [
+    "yuushya:bottle_container_raw_gray_wood"
+  ],
+  "blockstates": [
+    {
+      "variant": "facing=east",
+      "collision": [
+        { "from": [ 2.0, 0.0, 0.0 ], "to": [ 16.0, 16.0, 16.0 ] }
+      ]
+    },
+    {
+      "variant": "facing=north",
+      "collision": [
+        { "from": [ 0.0, 0.0, 0.0 ], "to": [ 16.0, 16.0, 14.0 ] }
+      ]
+    },
+    {
+      "variant": "facing=south",
+      "collision": [
+        { "from": [ 0.0, 0.0, 2.0 ], "to": [ 16.0, 16.0, 16.0 ] }
+      ]
+    },
+    {
+      "variant": "facing=west",
+      "collision": [
+        { "from": [ 0.0, 0.0, 0.0 ], "to": [ 14.0, 16.0, 16.0 ] }
+      ]
+    }
+  ]
+}

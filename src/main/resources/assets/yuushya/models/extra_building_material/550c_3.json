@@ -1,0 +1,6 @@
+{
+    "parent": "yuushya:extra_building_material/550c_1",
+	"textures": {
+		"6": "yuushya:0extra_building_material/preview/monitor_550c"
+	}
+}

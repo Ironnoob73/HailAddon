@@ -1,0 +1,68 @@
+{
+  "children": [
+    "yuushya:white_bow_small_gift_box_black_concrete",
+    "yuushya:white_bow_small_gift_box_blue_concrete",
+    "yuushya:white_bow_small_gift_box_cyan_concrete",
+    "yuushya:white_bow_small_gift_box_decorative_black_wool",
+    "yuushya:white_bow_small_gift_box_decorative_blue_wool",
+    "yuushya:white_bow_small_gift_box_decorative_brown_wool",
+    "yuushya:white_bow_small_gift_box_decorative_cyan_wool",
+    "yuushya:white_bow_small_gift_box_decorative_gray_wool",
+    "yuushya:white_bow_small_gift_box_decorative_green_wool",
+    "yuushya:white_bow_small_gift_box_decorative_light_blue_wool",
+    "yuushya:white_bow_small_gift_box_decorative_light_gray_wool",
+    "yuushya:white_bow_small_gift_box_decorative_lime_wool",
+    "yuushya:white_bow_small_gift_box_decorative_magenta_wool",
+    "yuushya:white_bow_small_gift_box_decorative_orange_wool",
+    "yuushya:white_bow_small_gift_box_decorative_pink_wool",
+    "yuushya:white_bow_small_gift_box_decorative_purple_wool",
+    "yuushya:white_bow_small_gift_box_decorative_red_wool",
+    "yuushya:white_bow_small_gift_box_decorative_white_wool",
+    "yuushya:white_bow_small_gift_box_decorative_yellow_wool",
+    "yuushya:white_bow_small_gift_box_gray_concrete",
+    "yuushya:white_bow_small_gift_box_green_concrete",
+    "yuushya:white_bow_small_gift_box_light_blue_concrete",
+    "yuushya:white_bow_small_gift_box_light_gray_concrete",
+    "yuushya:white_bow_small_gift_box_lime_concrete",
+    "yuushya:white_bow_small_gift_box_magenta_concrete",
+    "yuushya:white_bow_small_gift_box_market_block_blue",
+    "yuushya:white_bow_small_gift_box_market_block_brown",
+    "yuushya:white_bow_small_gift_box_market_block_green",
+    "yuushya:white_bow_small_gift_box_market_block_light_gray",
+    "yuushya:white_bow_small_gift_box_market_block_mixed",
+    "yuushya:white_bow_small_gift_box_market_block_purple",
+    "yuushya:white_bow_small_gift_box_market_block_red",
+    "yuushya:white_bow_small_gift_box_orange_concrete",
+    "yuushya:white_bow_small_gift_box_pink_concrete",
+    "yuushya:white_bow_small_gift_box_purple_concrete",
+    "yuushya:white_bow_small_gift_box_red_concrete",
+    "yuushya:white_bow_small_gift_box_white_concrete",
+    "yuushya:white_bow_small_gift_box_yellow_concrete"
+  ],
+  "blockstates": [
+    {
+      "variant": "facing=east",
+      "collision": [
+        { "from": [ 2.3999996185302734, 0.0, 3.3686292175364816 ], "to": [ 12.599999904632568, 10.15432202989895, 13.63137044528873 ] }
+      ]
+    },
+    {
+      "variant": "facing=north",
+      "collision": [
+        { "from": [ 3.3686292175364816, 0.0, 3.4000000953674316 ], "to": [ 13.63137044528873, 10.15432202989895, 13.600000381469727 ] }
+      ]
+    },
+    {
+      "variant": "facing=south",
+      "collision": [
+        { "from": [ 2.3686295547112692, 0.0, 2.3999996185302734 ], "to": [ 12.631370782463518, 10.15432202989895, 12.599999904632568 ] }
+      ]
+    },
+    {
+      "variant": "facing=west",
+      "collision": [
+        { "from": [ 3.4000000953674316, 0.0, 2.3686295547112692 ], "to": [ 13.600000381469727, 10.15432202989895, 12.631370782463518 ] }
+      ]
+    }
+  ]
+}

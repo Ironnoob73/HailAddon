@@ -1,0 +1,56 @@
+{
+  "children": [
+    "yuushya:skateboard_black_concrete",
+    "yuushya:skateboard_blue_concrete",
+    "yuushya:skateboard_cyan_concrete",
+    "yuushya:skateboard_gray_concrete",
+    "yuushya:skateboard_green_concrete",
+    "yuushya:skateboard_light_blue_concrete",
+    "yuushya:skateboard_light_gray_concrete",
+    "yuushya:skateboard_lime_concrete",
+    "yuushya:skateboard_magenta_concrete",
+    "yuushya:skateboard_orange_concrete",
+    "yuushya:skateboard_pink_concrete",
+    "yuushya:skateboard_purple_concrete",
+    "yuushya:skateboard_raw_acacia_wood",
+    "yuushya:skateboard_raw_bamboo",
+    "yuushya:skateboard_raw_birch_wood",
+    "yuushya:skateboard_raw_cherry_wood",
+    "yuushya:skateboard_raw_crimson_wood",
+    "yuushya:skateboard_raw_dark_oak_wood",
+    "yuushya:skateboard_raw_jungle_wood",
+    "yuushya:skateboard_raw_mangrove_wood",
+    "yuushya:skateboard_raw_oak_wood",
+    "yuushya:skateboard_raw_spruce_wood",
+    "yuushya:skateboard_raw_warped_wood",
+    "yuushya:skateboard_red_concrete",
+    "yuushya:skateboard_white_concrete",
+    "yuushya:skateboard_yellow_concrete"
+  ],
+  "blockstates": [
+    {
+      "variant": "facing=east",
+      "collision": [
+        { "from": [ -3.695518130045148, 0.0, 4.5 ], "to": [ 16.0, 4.454613261971645, 11.5 ] }
+      ]
+    },
+    {
+      "variant": "facing=north",
+      "collision": [
+        { "from": [ 4.5, 0.0, 0.0 ], "to": [ 11.5, 4.454613261971645, 19.695518130045148 ] }
+      ]
+    },
+    {
+      "variant": "facing=south",
+      "collision": [
+        { "from": [ 4.5, 0.0, -3.695518130045148 ], "to": [ 11.5, 4.454613261971645, 16.0 ] }
+      ]
+    },
+    {
+      "variant": "facing=west",
+      "collision": [
+        { "from": [ 0.0, 0.0, 4.5 ], "to": [ 19.695518130045148, 4.454613261971645, 11.5 ] }
+      ]
+    }
+  ]
+}

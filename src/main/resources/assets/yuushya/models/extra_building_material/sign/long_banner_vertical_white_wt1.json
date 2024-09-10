@@ -1,0 +1,7 @@
+{
+    "parent": "yuushya:extra_building_material/sign/long_banner_vertical_red_wt1",
+	"textures": {
+		"0": "yuushya:0extra_building_material/preview/sign/long_banner_vertical_white",
+		"1": "yuushya:0extra_building_material/preview/character_black"
+	}
+}

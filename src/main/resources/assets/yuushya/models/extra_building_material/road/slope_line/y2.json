@@ -1,0 +1,7 @@
+{
+    "parent": "yuushya:extra_building_material/road/slope_line/2",
+    "textures": {
+		"0": "yuushya:0extra_building_block/road2_",
+		"particle": "yuushya:0extra_building_block/road2_"
+    }
+}

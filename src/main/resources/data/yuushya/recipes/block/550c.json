@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "yuushya:lighting_blueprint"
+    },
+    "result": "yuushya:550c",
+    "count": 4
+}

@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block_rd",
+	"textures": {
+		"0": "yuushya:block_/raw_wood/raw_birch_wood_top",
+		"1": "yuushya:0extra_building_material/preview/character_small_black",
+		"particle": "#0"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 0],
+			"to": [13, 16, 1],
+			"faces": {
+				"north": {"uv": [3, 0, 13, 16], "texture": "#0"},
+				"east": {"uv": [14, 0, 13, 16], "texture": "#0"},
+				"south": {"uv": [3, 0, 13, 16], "texture": "#0"},
+				"west": {"uv": [2, 0, 3, 16], "texture": "#0"},
+				"up": {"uv": [3, 0, 13, 1], "texture": "#0"},
+				"down": {"uv": [3, 15, 13, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 0, 1.01],
+			"to": [12, 16, 1.01],
+			"faces": {
+				"south": {"uv": [0, 0, 8, 16], "texture": "#1"}
+			}
+		}
+	]
+}

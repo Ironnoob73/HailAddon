@@ -1,0 +1,6 @@
+{
+    "parent": "yuushya:extra_building_material/sign/pennants_wt1",
+	"textures": {
+		"4": "yuushya:0extra_building_material/preview/sign/pennants_t4"
+	}
+}

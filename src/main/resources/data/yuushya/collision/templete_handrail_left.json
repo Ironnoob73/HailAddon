@@ -1,0 +1,31 @@
+{
+  "children": [
+    "yuushya:handrail_left_raw_gray_wood"
+  ],
+  "blockstates": [
+    {
+      "variant": "facing=east",
+      "collision": [
+        { "from": [ -2.121320343559642, -8.65685424949238, -0.5 ], "to": [ 16.0, 18.0, 4.5 ] }
+      ]
+    },
+    {
+      "variant": "facing=north",
+      "collision": [
+        { "from": [ -0.5, -8.65685424949238, 0.0 ], "to": [ 4.5, 18.0, 18.121320343559642 ] }
+      ]
+    },
+    {
+      "variant": "facing=south",
+      "collision": [
+        { "from": [ 11.5, -8.65685424949238, -2.121320343559642 ], "to": [ 16.5, 18.0, 16.0 ] }
+      ]
+    },
+    {
+      "variant": "facing=west",
+      "collision": [
+        { "from": [ 0.0, -8.65685424949238, 11.5 ], "to": [ 18.121320343559642, 18.0, 16.5 ] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "yuushya:extra_building_material/sign/long_banner_vertical_red",
+	"textures": {
+		"0": "yuushya:0extra_building_material/preview/sign/long_banner_vertical_yellow"
+	}
+}
