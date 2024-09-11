@@ -3,8 +3,10 @@
 	"ambientocclusion": false,
 	"textures": {
 		"0": "yuushya:0extra_building_material/preview/sign/long_banner_horizontal_red",
+		"1": "yuushya:block_/empty",
 		"particle": "#0"
 	},
+	"gui_light": "front",
 	"elements": [
 		{
 			"from": [0, 0, 1],
@@ -14,6 +16,41 @@
 				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"south": {"uv": [0, 0, 16, 16], "texture": "#0"}
 			}
+		},
+		{
+			"from": [0, 0, 1.1],
+			"to": [16, 16, 1.1],
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -45.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -45.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
 }

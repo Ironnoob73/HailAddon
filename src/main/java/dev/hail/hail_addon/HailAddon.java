@@ -1,7 +1,6 @@
 package dev.hail.hail_addon;
 
-import com.yuushya.registries.YuushyaRegistries;
-import dev.hail.hail_addon.registries.HailAddonRegistryConfig;
+import com.yuushya.utils.AddonLoader;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -73,6 +72,8 @@ public class HailAddon
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public HailAddon(IEventBus modEventBus, ModContainer modContainer)
     {
+        AddonLoader.loadResource(MODID,HailAddon.class);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -107,8 +108,6 @@ public class HailAddon
 
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
 
-        HailAddonRegistryConfig.readRegistrySelf();
-        YuushyaRegistries.registerRegistries();
     }
 
     // Add the example block item to the building blocks tab

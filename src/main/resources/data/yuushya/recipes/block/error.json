@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "yuushya:holo_halo"
-    },
-    "result": "yuushya:error",
-    "count": 4
-}

@@ -1,0 +1,165 @@
+{"version":"2.0.0",
+  "block":[
+
+    { "name": "test!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!","class_type": "_comment"},
+    {
+        "class_type": "IntactBlock",
+        "name": "train_body_1",
+		"item_group": "traffic",
+		"blockstate": { "forms": [["yuushya:extra_building_material/train_"]]}
+    },
+    {
+        "class_type": "IntactBlock",
+        "name": "train_body_2",
+		"item_group": "traffic",
+		"blockstate": { "forms": [["yuushya:extra_building_material/train__"]]}
+    },
+    {
+        "class_type": "IntactBlock",
+        "name": "train_head_1",
+		"item_group": "traffic",
+		"blockstate": { "forms": [["yuushya:extra_building_material/train_head"]]}
+    },
+    {
+        "class_type": "IntactBlock",
+        "name": "train_head_2",
+		"item_group": "traffic",
+		"blockstate": { "forms": [["yuushya:extra_building_material/train_head_"]]}
+    },
+
+
+
+    {"name": "~Registed_Texture_Library_模组注册纹理库", "class_type": "_comment" },
+    {
+        "class_type": "WoodBlock", "name": "raw_gray_wood",
+        "properties": {"sound": "wood" },"item_group": "wood",
+        "texture": {
+            "type": "raw_wood",
+            "value":"yuushya:block_/raw_wood/raw_gray_wood_top",
+            "set":  [
+                "all#yuushya:block_/raw_wood/raw_gray_wood_top","sides#yuushya:block_/raw_wood/raw_gray_wood_sides","top#yuushya:block_/raw_wood/raw_gray_wood_top"]}
+    },
+
+
+
+	{"name": "~Gas_Station_加油站", "class_type": "_comment" },
+    {
+        "class_type": "IntactBlock",
+        "name": "gas_pump",
+        "auto_generated": { "recipe": true,"blockstate" : "true","collision": "detail"  }, "item_group": "infrastructure",
+        "blockstate": {"forms": [["yuushya:extra_building_material/gas_pump"]]}
+    },
+    {
+        "class_type": "IntactBlock",
+        "name": "gas_pump_signage",
+        "properties": {"light_level": 10},
+        "item_group": "signs",
+        "blockstate": {"forms": [["yuushya:extra_building_material/gas_pump_signage"]]}
+    },
+
+
+    {"name": "~Signs_标牌", "class_type": "_comment" },
+    {
+        "class_type": "IntactBlock",
+        "name": "signboard_middle",
+        "item_group": "signs",
+        "blockstate": { "forms": [["yuushya:extra_building_material/sign/signboard_middle"]]}
+    },
+    {
+        "class_type": "IntactBlock",
+        "name": "signboard_bottom",
+        "item_group": "signs",
+        "blockstate": { "forms": [["yuushya:extra_building_material/sign/signboard_bottom"]]}
+    },
+    {
+        "class_type": "IntactBlock",
+        "name": "signboard_top",
+        "item_group": "signs",
+        "blockstate": { "forms": [["yuushya:extra_building_material/sign/signboard_top"]]}
+    },
+    {
+        "class_type": "DecoBlock",
+        "name": "pennants",
+        "item_group": "signs",
+        "properties": {"lines": 1},
+        "blockstate": { "forms": [["yuushya:extra_building_material/sign/pennants"],["yuushya:extra_building_material/sign/pennants_wt1"],["yuushya:extra_building_material/sign/pennants_wt2"],["yuushya:extra_building_material/sign/pennants_wt3"],["yuushya:extra_building_material/sign/pennants_wt4"],["yuushya:extra_building_material/sign/pennants_wt5"]]}
+    },
+    {
+        "class_type": "IntactBlock",
+        "name": "long_banner_horizontal",
+        "item_group": "signs",
+        "properties": {"lines": 1},
+        "blockstate": { "forms": [["yuushya:extra_building_material/sign/long_banner_horizontal_red"],["yuushya:extra_building_material/sign/long_banner_horizontal_red_wt1"],["yuushya:extra_building_material/sign/long_banner_horizontal_red_wt2"],["yuushya:extra_building_material/sign/long_banner_horizontal_white"],["yuushya:extra_building_material/sign/long_banner_horizontal_white_wt1"],["yuushya:extra_building_material/sign/long_banner_horizontal_yellow"],["yuushya:extra_building_material/sign/long_banner_horizontal_yellow_wt1"]]}
+    },
+    {
+        "class_type": "IntactBlock",
+        "name": "long_banner_vertical",
+        "item_group": "signs",
+        "properties": {"lines": 1},
+        "blockstate": { "forms": [["yuushya:extra_building_material/sign/long_banner_vertical_red"],["yuushya:extra_building_material/sign/long_banner_vertical_red_wt1"],["yuushya:extra_building_material/sign/long_banner_vertical_red_wt2"],["yuushya:extra_building_material/sign/long_banner_vertical_white"],["yuushya:extra_building_material/sign/long_banner_vertical_white_wt1"],["yuushya:extra_building_material/sign/long_banner_vertical_yellow"],["yuushya:extra_building_material/sign/long_banner_vertical_yellow_wt1"]]}
+    },
+
+
+
+    {"name": "~Rail_Way_铁路", "class_type": "_comment" },
+    {
+        "class_type": "DecoBlock",
+        "name": "railway",
+        "item_group": "traffic",
+        "blockstate": { "forms": [["yuushya:extra_building_material/railway"]]}
+    },
+    {
+        "class_type": "DecoBlock",
+        "name": "rail_flat",
+        "item_group": "traffic",
+        "blockstate": { "forms": [["yuushya:extra_building_material/rail_flat"]]}
+    },
+    
+
+
+	{"name": "~Traffic_交通", "class_type": "_comment" },
+    {
+		"class_type": "FixedBlock",
+		"name": "bus_red_head",
+        "properties": {"lines": 1},
+		"item_group": "traffic",
+		"blockstate": { "forms": [["yuushya:extra_building_material/bus_red_head"]]}
+	},
+
+
+    {"name": "~Film&Television_影视作品", "class_type": "_comment" },
+    {
+        "class_type": "DecoBlock",
+        "name": "550c",
+        "properties": {"lines": 1},
+        "item_group": "electrical_appliance",
+        "blockstate": { "forms": [["yuushya:extra_building_material/550c_0"],["yuushya:extra_building_material/550c_1"],["yuushya:extra_building_material/550c_2"],["yuushya:extra_building_material/550c_3"]]}
+    },
+    {
+		"class_type": "FixedBlock",
+		"name": "error",
+		"item_group": "item",
+		"blockstate": { "forms": [["yuushya:extra_building_material/error"]]}
+	},
+
+
+
+	{"name": "~Template_Library_模板库", "class_type": "_comment" },
+	{
+		"name": "warning_slab",
+		"blockstate": { "forms": [["yuushya:template/warning_slab"]], "kit": "normal"},
+		"render_type": "cutout",
+		"properties": { "is_solid": false, "has_collision": true, "hardness": 1, "resistance": 1, "material": "wood", "is_delicate": false, "lines": 1},
+		"class_type": "template", "auto_generated": { "recipe": true,"item_model": true ,"blockstate" : "true"},
+         "item_group": "extra_shapes",
+		"texture": {
+				"slots": ["all", "sides", "top"],
+			"for_class": ["misc", "wool", "decorative_wool", "raw_wood", "concrete"]
+		}
+
+	}
+  ],
+  "item":[
+		{"class_type": "HatItem", "name": "holo_halo","item_group": "item","properties": {"max_count": 1,"lines": 1, "rarity": "rare"}}
+  ]
+}
