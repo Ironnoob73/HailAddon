@@ -39,7 +39,7 @@ public class RotItem extends AbstractToolItem {
         } else {
             return InteractionResult.PASS;
         }
-    }public static EnumProperty getRotateFromState(BlockState blockState) {
+    }public static Property getRotateFromState(BlockState blockState) {
         if (blockState.hasProperty(BlockStateProperties.HORIZONTAL_FACING)) {
             return BlockStateProperties.HORIZONTAL_FACING;
         }
@@ -48,6 +48,9 @@ public class RotItem extends AbstractToolItem {
         }
         else if(blockState.hasProperty(BlockStateProperties.AXIS)){
             return BlockStateProperties.AXIS;
+        }
+        else if(blockState.hasProperty(BlockStateProperties.ROTATION_16)){
+            return BlockStateProperties.ROTATION_16;
         }
         else{
             return null;

@@ -1,0 +1,6 @@
+{
+  "hail_addon.creative_tab": "Yuushya: Hail Addon",
+  "item.hail_addon.rot_wrench": "Pipe Wrench",
+  "item.hail_addon.rot_wrench.line1": "§9Left-click or right-click on a block with directions to rotate it",
+  "item.hail_addon.rot_wrench.select": "Toggle Direction"
+}
