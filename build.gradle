@@ -116,8 +116,8 @@ dependencies {
     implementation "curse.maven:refurbished-furniture-897116:5705556"
     implementation "curse.maven:framework-549225:5692404"
 
-    implementation files('D:/minecraft/forge_development/yuushya-townscape/build/libs/yuushya-1.21.0-neoforge-2.2.0.jar')
-    implementation files('D:/minecraft/forge_development/yuushya-townscape/1.21.0/neoforge/run/mods/yuushya-modelling-1.21.0-neoforge-2.2.0-test7.jar')
+    implementation "curse.maven:yuushya-townscape-533104:5739035"
+    implementation "curse.maven:yuushya-modelling-899087:5739045"
 
 }
 
